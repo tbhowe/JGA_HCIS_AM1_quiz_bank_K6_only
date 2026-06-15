@@ -176,7 +176,7 @@
    original; there is nothing to stratify across when every item is K6.
 ---------------------------------------------------------------------------- */
 const QUESTION_BANK_URL = "questions.json";
-const QUIZ_LENGTH =20;
+const QUIZ_LENGTH = 12;
 const WEAK_THRESHOLD = 0.6;
 
 const STRATIFY_BY_KSB = false;
@@ -304,6 +304,7 @@ function buildQuiz(){
 function beginQuiz(){
   quiz = buildQuiz();
   idx = 0; results = [];
+  selected = null; answered = false;   // reset per-question state for a clean start
   renderQuestion();
 }
 
