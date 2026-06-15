@@ -1,0 +1,902 @@
+[
+  {
+    "id": "K6-001",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "Which source provides the most detailed population counts by age, sex and small-area geography, collected once a decade?",
+    "options": [
+      "Office for National Statistics (ONS) mid-year population estimates",
+      "The Census",
+      "Nomis",
+      "Hospital Episode Statistics (HES)"
+    ],
+    "answer": 1,
+    "rationale": "The Census is the once-a-decade count giving detailed small-area demographic breakdowns. Mid-year estimates update the population between censuses but carry more uncertainty at small-area level. Nomis is a portal for labour market and Census statistics, not a separate count. HES records hospital activity, not the resident population."
+  },
+  {
+    "id": "K6-002",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "Between censuses, which source gives the official annual estimate of the resident population of a local area?",
+    "options": [
+      "The Census",
+      "Quality and Outcomes Framework (QOF) disease registers",
+      "The Health Survey for England (HSE)",
+      "Office for National Statistics (ONS) mid-year population estimates"
+    ],
+    "answer": 3,
+    "rationale": "Mid-year estimates are produced annually to update the population between the decennial Census. The Census itself is taken only every ten years. QOF registers count patients recorded with conditions, not the whole resident population, and the Health Survey for England is a sample survey rather than a population count."
+  },
+  {
+    "id": "K6-003",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "What does the Office for National Statistics (ONS) service Nomis primarily provide access to?",
+    "options": [
+      "Official labour market and Census statistics",
+      "The national list of GP-registered patients",
+      "Hospital inpatient diagnosis records",
+      "Notifiable infectious disease reports"
+    ],
+    "answer": 0,
+    "rationale": "Nomis is an ONS service giving access to official labour market statistics and Census data. The GP registered-patient list, hospital diagnosis records and infectious disease reports are held in entirely different systems."
+  },
+  {
+    "id": "K6-004",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "A recognised limitation of relying on Census data towards the end of a decade is that it:",
+    "options": [
+      "covers only people registered with a GP",
+      "is drawn from a small voluntary sample",
+      "becomes progressively out of date as the population changes after collection",
+      "cannot be broken down below regional level"
+    ],
+    "answer": 2,
+    "rationale": "Because the Census is collected only every ten years, it grows less accurate as a current picture as births, deaths and migration accumulate. It is a near-complete count of residents rather than a GP-registered or voluntary-sample basis, and it provides data down to very small geographies."
+  },
+  {
+    "id": "K6-005",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "When calculating the rate of a disease in a population, Office for National Statistics (ONS) population estimates are most commonly used to provide the:",
+    "options": [
+      "numerator, the count of cases",
+      "denominator, the population at risk",
+      "clinical code assigned to each case",
+      "unit cost of each case"
+    ],
+    "answer": 1,
+    "rationale": "Population figures supply the denominator, the population at risk, in a rate; the numerator (the case count) comes from disease or activity data. Clinical coding and unit costs come from care and finance datasets, not population statistics."
+  },
+  {
+    "id": "K6-006",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "Which Office for National Statistics (ONS) product estimates the future size and age structure of the population?",
+    "options": [
+      "Mid-year population estimates",
+      "The decennial Census",
+      "Population projections",
+      "The Health Survey for England (HSE)"
+    ],
+    "answer": 2,
+    "rationale": "Population projections estimate future population size and structure. Mid-year estimates describe the current population and the Census a point-in-time count. The Health Survey for England is a sample health survey, not a population projection."
+  },
+  {
+    "id": "K6-007",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The Quality and Outcomes Framework (QOF) is most useful to an analyst as a source of:",
+    "options": [
+      "individual patients' free-text consultation notes",
+      "emergency department attendance records",
+      "adult social care expenditure",
+      "recorded prevalence of long-term conditions on practice disease registers"
+    ],
+    "answer": 3,
+    "rationale": "QOF produces practice-level data including disease-register prevalence for long-term conditions and achievement against quality indicators. It does not hold free-text notes, emergency attendances or social care spend."
+  },
+  {
+    "id": "K6-008",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The GP Patient Survey (GPPS) is designed to measure:",
+    "options": [
+      "the clinical accuracy of GP diagnoses",
+      "the number of prescriptions dispensed by pharmacies",
+      "patients' reported experience of general practice and access to it",
+      "hospital waiting times for planned surgery"
+    ],
+    "answer": 2,
+    "rationale": "GPPS is a large patient-reported survey of experience of, and access to, general practice. It is not a clinical audit, a dispensing dataset or a hospital waiting-times source."
+  },
+  {
+    "id": "K6-009",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "GPES Data for Planning and Research (GDPPR) is best described as:",
+    "options": [
+      "a survey of patient satisfaction with primary care",
+      "a register of adult social care service users",
+      "the national tariff used to pay for hospital activity",
+      "an extract of coded GP record data made available for planning and research"
+    ],
+    "answer": 3,
+    "rationale": "GDPPR is an extract of coded data from GP records, assembled for planning and research uses. It is not a satisfaction survey, a social care register or a payment tariff."
+  },
+  {
+    "id": "K6-010",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "GP Practice Records (GPPR) primarily contain:",
+    "options": [
+      "aggregate counts of emergency attendances by hospital",
+      "local authority adult social care assessments",
+      "the coded and recorded clinical information held about patients at their general practice",
+      "Office for National Statistics (ONS) estimates of the resident population"
+    ],
+    "answer": 2,
+    "rationale": "GPPR are the records held at the practice about its registered patients, including coded clinical information. Emergency counts, social care assessments and population estimates sit in other datasets."
+  },
+  {
+    "id": "K6-011",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "An analyst wanting practice-level recorded prevalence of conditions such as diabetes or hypertension would most directly use:",
+    "options": [
+      "Quality and Outcomes Framework (QOF) disease registers",
+      "the GP Patient Survey (GPPS)",
+      "Hospital Episode Statistics (HES)",
+      "the Adult Social Care Outcomes Framework (ASCOF)"
+    ],
+    "answer": 0,
+    "rationale": "QOF disease registers give practice-level recorded prevalence of long-term conditions. GPPS measures experience, HES records hospital activity, and ASCOF reports adult social care outcomes."
+  },
+  {
+    "id": "K6-012",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "A caution when using Quality and Outcomes Framework (QOF) prevalence figures is that they reflect:",
+    "options": [
+      "only conditions diagnosed in hospital",
+      "the resident population counted at the last Census",
+      "patients' self-reported satisfaction with care",
+      "conditions recorded on practice registers, which may understate true prevalence in the population"
+    ],
+    "answer": 3,
+    "rationale": "QOF captures conditions recorded on practice registers, so undiagnosed or unrecorded cases are missed and true population prevalence may be higher. It is not limited to hospital diagnoses, is not a Census count, and is not a satisfaction measure."
+  },
+  {
+    "id": "K6-013",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "For analysis needing coded primary care data across the population, the source assembled for planning and research is:",
+    "options": [
+      "the GP Patient Survey (GPPS)",
+      "GPES Data for Planning and Research (GDPPR)",
+      "the Maternity Services Data Set (MSDS)",
+      "the Model Health System"
+    ],
+    "answer": 1,
+    "rationale": "GDPPR provides population-scale coded GP data for planning and research. GPPS is an experience survey, MSDS covers maternity care, and the Model Health System is a benchmarking tool."
+  },
+  {
+    "id": "K6-014",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "Hospital Episode Statistics (HES) is the main administrative source for:",
+    "options": [
+      "patient-reported experience of general practice",
+      "adult social care expenditure by councils",
+      "records of NHS hospital activity in England, including admissions, diagnoses and procedures",
+      "notifiable infectious disease reports"
+    ],
+    "answer": 2,
+    "rationale": "HES holds administrative records of NHS hospital activity, including admitted patient care with diagnoses and procedures. The other options describe primary care experience, social care finance and infectious disease surveillance."
+  },
+  {
+    "id": "K6-015",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "In Hospital Episode Statistics (HES), diagnoses and procedures are recorded using:",
+    "options": [
+      "patients' own descriptions in their own words",
+      "standard clinical classification codes rather than free text",
+      "the practice's Quality and Outcomes Framework (QOF) indicator scores",
+      "Office for National Statistics (ONS) population estimates"
+    ],
+    "answer": 1,
+    "rationale": "HES records diagnoses and procedures using standard clinical classifications, which makes activity countable and comparable. It does not store free text, QOF scores or population estimates."
+  },
+  {
+    "id": "K6-016",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The Emergency Care Data Set (ECDS) is the national data set for:",
+    "options": [
+      "attendances at emergency departments",
+      "planned outpatient appointments",
+      "adult social care assessments",
+      "community district-nursing contacts"
+    ],
+    "answer": 0,
+    "rationale": "ECDS is the national data set covering emergency department attendances, replacing the older accident and emergency data flow. Outpatients, social care assessments and community contacts are recorded in other datasets."
+  },
+  {
+    "id": "K6-017",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The Maternity Services Data Set (MSDS) records:",
+    "options": [
+      "emergency department attendances",
+      "prescriptions issued in primary care",
+      "care provided to women and babies through maternity services",
+      "benefit claims held by the Department for Work and Pensions (DWP)"
+    ],
+    "answer": 2,
+    "rationale": "MSDS captures maternity care for women and their babies. Emergency attendances, prescriptions and benefit claims belong to Emergency Care Data Set (ECDS), primary care data and DWP datasets respectively."
+  },
+  {
+    "id": "K6-018",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The Secondary Uses Service (SUS) is best described as:",
+    "options": [
+      "the national repository through which hospital activity data flows to support commissioning and payment",
+      "a public dashboard of GP patient satisfaction",
+      "a survey of the general population's health behaviours",
+      "a benchmarking tool for trust productivity"
+    ],
+    "answer": 0,
+    "rationale": "SUS is the national repository that processes hospital activity data to support commissioning and the Payment by Results (PbR), or national tariff, arrangements. It is not a satisfaction dashboard, a population survey or a benchmarking tool."
+  },
+  {
+    "id": "K6-019",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "A reason to be cautious treating Hospital Episode Statistics (HES) as a measure of illness in the population is that it:",
+    "options": [
+      "is a voluntary sample of the population",
+      "is updated only once every ten years",
+      "contains only financial, not clinical, information",
+      "captures only people who used hospital services, not all those with the condition"
+    ],
+    "answer": 3,
+    "rationale": "HES records activity for those who attended hospital, so people with a condition who did not present are absent and community burden is understated. It is a near-complete administrative source rather than a sample, is updated frequently, and contains clinical as well as administrative detail."
+  },
+  {
+    "id": "K6-020",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "For activity data used to reimburse providers under the national tariff, the relevant flow is the:",
+    "options": [
+      "Health Survey for England (HSE)",
+      "Secondary Uses Service (SUS) and Payment by Results (PbR) data",
+      "GP Patient Survey (GPPS)",
+      "Census"
+    ],
+    "answer": 1,
+    "rationale": "SUS and the Payment by Results data underpin tariff-based reimbursement of provider activity. The Health Survey for England and GPPS are surveys, and the Census is a population count, none of which drives provider payment."
+  },
+  {
+    "id": "K6-021",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The Mental Health Services Data Set (MHSDS) records data on:",
+    "options": [
+      "attendances at emergency departments",
+      "the resident population by age and sex",
+      "school pupils' educational attainment",
+      "people in contact with mental health, learning disability and autism services"
+    ],
+    "answer": 3,
+    "rationale": "MHSDS covers people using mental health, learning disability and autism services. Emergency attendances, population counts and pupil attainment are held in Emergency Care Data Set (ECDS), Office for National Statistics (ONS) data and Department for Education (DfE) data."
+  },
+  {
+    "id": "K6-022",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The Community Services Data Set (CSDS) captures activity in services such as:",
+    "options": [
+      "acute hospital surgery",
+      "adult social care finance",
+      "district nursing and health visiting",
+      "infectious disease laboratory surveillance"
+    ],
+    "answer": 2,
+    "rationale": "CSDS records community health services, for example district nursing and health visiting. Hospital surgery, social care finance and laboratory surveillance belong to other datasets."
+  },
+  {
+    "id": "K6-023",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The Improving Access to Psychological Therapies (IAPT) data set (now NHS Talking Therapies for anxiety and depression) covers:",
+    "options": [
+      "inpatient mental health admissions only",
+      "talking therapies provided for common mental health conditions",
+      "adult social care outcomes",
+      "continuing healthcare eligibility"
+    ],
+    "answer": 1,
+    "rationale": "The IAPT, now Talking Therapies, data set covers psychological therapy services for common conditions such as anxiety and depression. It is not limited to inpatient admissions and does not cover social care outcomes or continuing healthcare."
+  },
+  {
+    "id": "K6-024",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The Adult Social Care Outcomes Framework (ASCOF) is used to measure:",
+    "options": [
+      "the outcomes and quality of adult social care delivered by councils",
+      "the cost of each hospital procedure",
+      "the prevalence of conditions on GP registers",
+      "emergency department attendance rates"
+    ],
+    "answer": 0,
+    "rationale": "ASCOF reports outcome and quality measures for council-provided adult social care. Procedure costs, GP-register prevalence and emergency attendance rates come from finance, primary care and emergency datasets."
+  },
+  {
+    "id": "K6-025",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The SALT return (Short and Long Term Support) reports on:",
+    "options": [
+      "maternity care episodes",
+      "notifiable infectious diseases",
+      "GP patient experience",
+      "adult social care support provided to people by local authorities"
+    ],
+    "answer": 3,
+    "rationale": "SALT is the local authority return on short- and long-term adult social care support. Maternity care, infectious diseases and GP experience are covered by Maternity Services Data Set (MSDS), UK Health Security Agency (UKHSA) surveillance and GP Patient Survey (GPPS)."
+  },
+  {
+    "id": "K6-026",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The Adult Social Care Finance Return (ASC-FR) is the main source for:",
+    "options": [
+      "local authority expenditure on adult social care",
+      "the clinical outcomes of hospital treatment",
+      "the number of people on GP disease registers",
+      "emergency department waiting times"
+    ],
+    "answer": 0,
+    "rationale": "ASC-FR collects councils' adult social care expenditure. Hospital outcomes, GP-register counts and emergency waits sit in other datasets."
+  },
+  {
+    "id": "K6-027",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "NHS Continuing Healthcare (CHC) data concerns:",
+    "options": [
+      "the number of GP appointments offered each week",
+      "NHS funding of long-term care for people with significant ongoing health needs",
+      "attendances at sexual health clinics",
+      "secondary school absence rates"
+    ],
+    "answer": 1,
+    "rationale": "CHC data relate to NHS-funded continuing healthcare for people with substantial ongoing health needs. GP appointments, sexual health attendances and school absence are recorded elsewhere."
+  },
+  {
+    "id": "K6-028",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "To analyse the volume and type of publicly funded adult social care support arranged by a council, the most directly relevant source is:",
+    "options": [
+      "Hospital Episode Statistics (HES)",
+      "the Mental Health Services Data Set (MHSDS)",
+      "the Short and Long Term Support (SALT) return",
+      "the Census"
+    ],
+    "answer": 2,
+    "rationale": "SALT reports council-arranged adult social care support. HES covers hospital activity, MHSDS mental health services, and the Census the resident population, none of which describes social care support directly."
+  },
+  {
+    "id": "K6-029",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "UK Health Security Agency (UKHSA) surveillance datasets are primarily used to monitor:",
+    "options": [
+      "local authority social care spending",
+      "hospital procedure costs",
+      "the occurrence and spread of infectious diseases",
+      "patients' experience of general practice"
+    ],
+    "answer": 2,
+    "rationale": "UKHSA surveillance tracks the occurrence and spread of communicable diseases. Social care spend, procedure costs and GP experience are covered by other datasets."
+  },
+  {
+    "id": "K6-030",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The Health Survey for England (HSE) is best described as:",
+    "options": [
+      "a complete register of hospital admissions",
+      "the national immunisation record",
+      "a council adult social care finance return",
+      "an annual sample survey of health and health-related behaviours in the population"
+    ],
+    "answer": 3,
+    "rationale": "HSE is an annual survey of a representative sample, covering health and behaviours and including some measured data. It is not an admissions register, an immunisation record or a finance return."
+  },
+  {
+    "id": "K6-031",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The National Immunisation Management Service (NIMS) holds:",
+    "options": [
+      "records of vaccinations given across the population",
+      "emergency department attendance records",
+      "GP patient satisfaction scores",
+      "adult social care outcomes"
+    ],
+    "answer": 0,
+    "rationale": "NIMS holds population vaccination records and is widely used for immunisation coverage analysis. Emergency attendances, GP satisfaction and social care outcomes belong to other datasets."
+  },
+  {
+    "id": "K6-032",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "A particular strength of the Health Survey for England (HSE) compared with routine NHS activity data is that it:",
+    "options": [
+      "records every hospital admission in the country",
+      "aims to represent the whole population, including people who do not use services",
+      "is available in near real time each day",
+      "contains the unit cost of each contact"
+    ],
+    "answer": 1,
+    "rationale": "As a designed survey of a representative sample, HSE can describe the whole population, including people who never present to services, which administrative activity data cannot. It is a sample rather than a full admissions record, is periodic rather than real time, and does not hold unit costs."
+  },
+  {
+    "id": "K6-033",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "To monitor week-by-week trends in a notifiable infectious disease, an analyst would draw most directly on:",
+    "options": [
+      "the Adult Social Care Finance Return (ASC-FR)",
+      "the Health Survey for England (HSE)",
+      "UK Health Security Agency (UKHSA) surveillance datasets",
+      "Hospital Episode Statistics (HES)"
+    ],
+    "answer": 2,
+    "rationale": "UKHSA surveillance datasets are designed for timely monitoring of infectious disease trends. HSE is a periodic survey, ASC-FR a social care finance return and HES a hospital activity source, none giving timely infectious disease surveillance."
+  },
+  {
+    "id": "K6-034",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "NHS costing returns, such as the National Cost Collection (NCC), are the main source for:",
+    "options": [
+      "patients' experience of care",
+      "the resident population by ward",
+      "notifiable disease counts",
+      "the cost to providers of delivering NHS services"
+    ],
+    "answer": 3,
+    "rationale": "NHS costing returns capture providers' costs of delivering services, supporting cost analysis and tariff-setting. Patient experience, population counts and disease counts are held elsewhere."
+  },
+  {
+    "id": "K6-035",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "Commissioning Data Sets (CDS) are best understood as:",
+    "options": [
+      "a survey of public health behaviours",
+      "the standardised activity records providers submit to support commissioning and payment",
+      "the national vaccination register",
+      "a benchmarking tool for trust productivity"
+    ],
+    "answer": 1,
+    "rationale": "CDS are the nationally defined activity records submitted, via Secondary Uses Service (SUS), to support commissioning and reimbursement. They are not a behaviour survey, a vaccination register or a benchmarking tool."
+  },
+  {
+    "id": "K6-036",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "An analyst needs the unit cost of an inpatient stay rather than a count of stays. The more appropriate source is:",
+    "options": [
+      "the GP Patient Survey (GPPS)",
+      "the Census",
+      "UK Health Security Agency (UKHSA) surveillance data",
+      "NHS costing returns rather than activity data alone"
+    ],
+    "answer": 3,
+    "rationale": "Costing returns provide unit cost information, whereas activity datasets count what was done without attaching a cost. GPPS, the Census and surveillance data carry no provider cost information."
+  },
+  {
+    "id": "K6-037",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "To analyse the volume of elective hospital activity commissioned for a population, the most relevant finance-related flow is:",
+    "options": [
+      "NHS costing returns",
+      "the Adult Social Care Outcomes Framework (ASCOF)",
+      "Commissioning Data Sets (CDS)",
+      "the Health Survey for England (HSE)"
+    ],
+    "answer": 2,
+    "rationale": "Commissioning Data Sets carry the activity records used for commissioning. Costing returns describe cost rather than commissioned volume; ASCOF and HSE are unrelated to hospital commissioning activity."
+  },
+  {
+    "id": "K6-038",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "Department for Work and Pensions (DWP) datasets are most useful to a public health analyst as a source of:",
+    "options": [
+      "benefit claims and economic circumstances relevant to deprivation",
+      "hospital inpatient diagnoses",
+      "infectious disease laboratory results",
+      "maternity care episodes"
+    ],
+    "answer": 0,
+    "rationale": "DWP data on benefits and economic circumstances inform analysis of deprivation and the wider determinants of health. Hospital diagnoses, laboratory results and maternity episodes come from NHS datasets."
+  },
+  {
+    "id": "K6-039",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "Department for Education (DfE) datasets would most directly support analysis of:",
+    "options": [
+      "adult social care expenditure",
+      "educational attainment and factors such as free school meal eligibility",
+      "emergency department attendances",
+      "the cost of hospital procedures"
+    ],
+    "answer": 1,
+    "rationale": "Department for Education data cover schooling, attainment and indicators such as free school meal eligibility, all relevant to wider determinants. Social care spend, emergency attendances and procedure costs lie in other datasets."
+  },
+  {
+    "id": "K6-040",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "For official statistics on local employment, unemployment and earnings, an analyst would turn to:",
+    "options": [
+      "Nomis",
+      "Hospital Episode Statistics (HES)",
+      "the Mental Health Services Data Set (MHSDS)",
+      "NHS continuing healthcare (CHC) data"
+    ],
+    "answer": 0,
+    "rationale": "Nomis provides official labour market statistics including employment, unemployment and earnings. HES, MHSDS and CHC data concern health and care activity, not the labour market."
+  },
+  {
+    "id": "K6-041",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "Datasets from the Department for Work and Pensions (DWP) and the Department for Education (DfE) are valuable to public health analysts mainly because they describe:",
+    "options": [
+      "the clinical coding of hospital episodes",
+      "the timeliness of infectious disease reporting",
+      "the unit cost of NHS services",
+      "the wider social and economic determinants that influence health"
+    ],
+    "answer": 3,
+    "rationale": "Employment, benefits and education data capture wider determinants of health, which shape outcomes and inequalities. They are not clinical coding, surveillance timeliness or cost sources."
+  },
+  {
+    "id": "K6-042",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "To examine the relationship between childhood poverty and a health outcome, the most relevant non-health data source is likely to be:",
+    "options": [
+      "the Emergency Care Data Set (ECDS)",
+      "the Maternity Services Data Set (MSDS)",
+      "benefit and economic data from the Department for Work and Pensions (DWP)",
+      "NHS costing returns"
+    ],
+    "answer": 2,
+    "rationale": "DWP benefit and economic data are a standard proxy for poverty and deprivation. ECDS, MSDS and costing returns describe health activity and cost, not household economic circumstances."
+  },
+  {
+    "id": "K6-043",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "Fingertips is best described as:",
+    "options": [
+      "a secure environment for accessing record-level sensitive data",
+      "the national hospital activity repository",
+      "a public tool presenting a wide range of population and public health indicators",
+      "a survey of GP patient experience"
+    ],
+    "answer": 2,
+    "rationale": "Fingertips is a freely available tool of public health indicators and profiles across geographies. It is not a secure record-level environment, the hospital activity repository or a GP survey."
+  },
+  {
+    "id": "K6-044",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The Office for National Statistics (ONS) Secure Research Service (SRS) provides:",
+    "options": [
+      "a public dashboard of open health indicators",
+      "a secure environment for accredited researchers to analyse sensitive de-identified data",
+      "the national tariff for paying providers",
+      "a register of adult social care users"
+    ],
+    "answer": 1,
+    "rationale": "The ONS SRS is a secure setting where accredited researchers analyse sensitive de-identified data under controls. It is not an open dashboard, a payment tariff or a social care register."
+  },
+  {
+    "id": "K6-045",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The NHS Data Access Environment (DAE) is intended to:",
+    "options": [
+      "give approved analysts controlled access to NHS data for analysis",
+      "publish open public health profiles for the general public",
+      "collect councils' social care finance returns",
+      "survey the population's health behaviours"
+    ],
+    "answer": 0,
+    "rationale": "The NHS Data Access Environment provides controlled, governed access to NHS data for approved analysis. Open profiles, finance returns and behaviour surveys are the role of Fingertips, Adult Social Care Finance Return (ASC-FR) and Health Survey for England (HSE) respectively."
+  },
+  {
+    "id": "K6-046",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "A key difference between Fingertips and the Office for National Statistics (ONS) Secure Research Service (SRS) is that Fingertips:",
+    "options": [
+      "holds record-level patient data, while the SRS holds only aggregates",
+      "is restricted to accredited researchers, while the SRS is fully public",
+      "contains hospital costing data, while the SRS contains survey data",
+      "presents aggregated indicators openly, while the SRS controls access to sensitive record-level data"
+    ],
+    "answer": 3,
+    "rationale": "Fingertips publishes aggregated indicators in the open, whereas the SRS is a controlled environment for sensitive record-level data. The other options reverse or confuse these roles."
+  },
+  {
+    "id": "K6-047",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "An analyst wants ready-made local public health indicators to benchmark a local authority against England. The most convenient source is:",
+    "options": [
+      "the NHS Data Access Environment (DAE)",
+      "the Office for National Statistics (ONS) Secure Research Service (SRS)",
+      "Fingertips",
+      "Commissioning Data Sets (CDS)"
+    ],
+    "answer": 2,
+    "rationale": "Fingertips offers ready-made public health indicators and comparators at local authority level. The Data Access Environment and SRS are controlled analytical environments, and CDS are activity records, none giving off-the-shelf indicators."
+  },
+  {
+    "id": "K6-048",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The Model Health System (formerly Model Hospital) is designed to help organisations:",
+    "options": [
+      "compare their performance, productivity and costs against peers",
+      "record individual patients' clinical diagnoses",
+      "survey the public's health behaviours",
+      "monitor notifiable infectious diseases"
+    ],
+    "answer": 0,
+    "rationale": "The Model Health System is a benchmarking tool letting organisations compare performance, productivity and cost with similar peers. It is not a clinical record, a behaviour survey or a surveillance system."
+  },
+  {
+    "id": "K6-049",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The main analytical purpose of a benchmarking tool such as the Model Health System is to:",
+    "options": [
+      "provide the resident population denominator for rate calculations",
+      "show how an organisation compares with similar others to identify variation",
+      "supply record-level data for linkage",
+      "remove the need for any local data collection"
+    ],
+    "answer": 1,
+    "rationale": "Benchmarking tools highlight variation by comparing an organisation with comparable peers. They do not provide population denominators, supply record-level linkage data, or remove the need for local data."
+  },
+  {
+    "id": "K6-050",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "A trust wants to see how its costs and productivity compare with similar trusts. The most directly relevant tool is the:",
+    "options": [
+      "Health Survey for England (HSE)",
+      "GP Patient Survey (GPPS)",
+      "Census",
+      "Model Health System"
+    ],
+    "answer": 3,
+    "rationale": "The Model Health System is built for peer comparison of cost and productivity. HSE and GPPS are surveys and the Census a population count, none designed for trust-level benchmarking."
+  },
+  {
+    "id": "K6-051",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "Compared with administrative data, a distinctive feature of survey data such as the Health Survey for England (HSE) is that it is:",
+    "options": [
+      "a complete record of everyone who used a service",
+      "generated automatically as a by-product of service delivery",
+      "always more timely than administrative sources",
+      "collected deliberately for analysis, using a sample designed to represent the population"
+    ],
+    "answer": 3,
+    "rationale": "Survey data are gathered purposefully from a designed sample to represent the population, which lets them describe non-users too. Administrative data, by contrast, arise as a by-product of delivering services and cover only those who used them; surveys are not generally more timely."
+  },
+  {
+    "id": "K6-052",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "A strength of administrative data such as hospital records, relative to a survey, is that it:",
+    "options": [
+      "is collected specifically to answer a research question",
+      "covers essentially everyone who used the service, often in large volumes",
+      "is free from any influence of how services are organised",
+      "represents people who never use the service"
+    ],
+    "answer": 1,
+    "rationale": "Administrative data typically cover all service users in large volumes, a key advantage over a sample survey. They are not designed for research, are shaped by operational practice, and miss people who never use the service."
+  },
+  {
+    "id": "K6-053",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "When an analyst describes a data source as having poor timeliness, they mean that:",
+    "options": [
+      "there is a long delay between events occurring and the data being available",
+      "the data omit certain population groups",
+      "the geographic detail is too coarse",
+      "the records contain many coding errors"
+    ],
+    "answer": 0,
+    "rationale": "Timeliness concerns the lag between an event and the data being available to use. Omitting groups relates to coverage, coarse geography to granularity, and coding errors to data quality, each a different dimension."
+  },
+  {
+    "id": "K6-054",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The granularity of a data source refers to:",
+    "options": [
+      "how soon after an event the data appear",
+      "whether it is freely accessible or governed",
+      "the level of detail at which it is available, for example individual records versus area totals",
+      "how complete the records are"
+    ],
+    "answer": 2,
+    "rationale": "Granularity is the level of detail, from individual records to aggregated totals or coarse geographies. Speed is timeliness, accessibility is an access matter, and missingness is completeness."
+  },
+  {
+    "id": "K6-055",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "If a data source is said to have incomplete coverage, the main concern for an analyst is that:",
+    "options": [
+      "some of the relevant population or events are not captured at all",
+      "the data take too long to become available",
+      "the records are too detailed to summarise",
+      "the source is too expensive to access"
+    ],
+    "answer": 0,
+    "rationale": "Coverage is about whether all the relevant population or events are included; incomplete coverage means some are missing, which can bias results. The other options describe timeliness, granularity and cost rather than coverage."
+  },
+  {
+    "id": "K6-056",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "Coding variation between providers is a problem mainly because it can:",
+    "options": [
+      "delay the release of the data",
+      "make apparent differences reflect recording practice rather than real differences",
+      "reduce the size of the dataset",
+      "prevent the data from being stored securely"
+    ],
+    "answer": 1,
+    "rationale": "When providers code the same thing differently, comparisons can be distorted, so a difference may reflect recording practice rather than genuine variation. Coding variation does not principally affect timeliness, dataset size or security."
+  },
+  {
+    "id": "K6-057",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The linkage potential of a dataset refers to:",
+    "options": [
+      "how readily it can be joined to other datasets about the same individuals or areas",
+      "how quickly it is published",
+      "how many variables it contains",
+      "how it is funded"
+    ],
+    "answer": 0,
+    "rationale": "Linkage potential is the ease of joining records to other sources, for example via a common identifier, which enriches analysis. It is unrelated to publication speed, variable count or funding."
+  },
+  {
+    "id": "K6-058",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "Describing a source as having significant access constraints chiefly reflects:",
+    "options": [
+      "the small number of records it contains",
+      "its lack of any clinical detail",
+      "its frequent updating",
+      "the governance approvals and controls required before the data can be used"
+    ],
+    "answer": 3,
+    "rationale": "Access constraints concern the approvals, agreements and controls needed to use sensitive data. They do not describe dataset size, clinical content or update frequency."
+  },
+  {
+    "id": "K6-059",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "The distinction between operational and financial data is essentially that operational data describe:",
+    "options": [
+      "the activity or care that took place, while financial data describe its cost",
+      "the cost of care, while financial data describe the activity",
+      "the population at risk, while financial data describe the cases",
+      "patient experience, while financial data describe clinical outcomes"
+    ],
+    "answer": 0,
+    "rationale": "Operational data record what activity or care occurred; financial data record what it cost. The other options invert or confuse these categories."
+  },
+  {
+    "id": "K6-060",
+    "ksb": [
+      "K6"
+    ],
+    "stem": "When assessing the completeness of a dataset, an analyst is mainly checking:",
+    "options": [
+      "whether the data can be linked to other sources",
+      "whether records and fields are present rather than missing",
+      "how detailed the geographic breakdown is",
+      "how the data are funded"
+    ],
+    "answer": 1,
+    "rationale": "Completeness concerns whether expected records and data fields are present or missing, since missingness can bias analysis. Linkage, geographic detail and funding are separate considerations."
+  }
+]
