@@ -616,18 +616,16 @@
   },
   {
     "id": "K6-042",
-    "ksb": [
-      "K6"
-    ],
-    "stem": "To examine the relationship between childhood poverty and a health outcome, the most relevant non-health data source is likely to be:",
+    "ksb": ["K6"],
+    "stem": "An analyst wants a direct measure of household income poverty to relate to a childhood health outcome. The most relevant source is likely to be:",
     "options": [
-      "the Emergency Care Data Set (ECDS)",
-      "the Maternity Services Data Set (MSDS)",
-      "benefit and economic data from the Department for Work and Pensions (DWP)",
-      "NHS costing returns"
+      "the Office for National Statistics mid-year population estimates",
+      "Department for Work and Pensions benefit and low-income data",
+      "Quality and Outcomes Framework disease registers",
+      "the Emergency Care Data Set"
     ],
-    "answer": 2,
-    "rationale": "DWP benefit and economic data are a standard proxy for poverty and deprivation. ECDS, MSDS and costing returns describe health activity and cost, not household economic circumstances."
+    "answer": 1,
+    "rationale": "DWP holds the standard income-poverty data, including the Children in Low Income Families local-area series, making it the direct source for household economic circumstances. Population estimates give denominators, QOF gives recorded disease prevalence, and ECDS records emergency attendances, none of which measures income poverty."
   },
   {
     "id": "K6-043",
