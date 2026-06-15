@@ -4,15 +4,15 @@
     "ksb": [
       "K6"
     ],
-    "stem": "Which source provides the most detailed population counts by age, sex and small-area geography, collected once a decade?",
+    "stem": "An analyst needs the most detailed counts of residents by age, sex and small-area geography for a single reference point. Which source is designed to provide this?",
     "options": [
-      "Office for National Statistics (ONS) mid-year population estimates",
       "The Census",
-      "Nomis",
-      "Hospital Episode Statistics (HES)"
+      "Office for National Statistics (ONS) mid-year population estimates",
+      "ONS population projections",
+      "Nomis"
     ],
-    "answer": 1,
-    "rationale": "The Census is the once-a-decade count giving detailed small-area demographic breakdowns. Mid-year estimates update the population between censuses but carry more uncertainty at small-area level. Nomis is a portal for labour market and Census statistics, not a separate count. HES records hospital activity, not the resident population."
+    "answer": 0,
+    "rationale": "The Census is the near-complete count taken once a decade, giving the most detailed breakdowns down to very small geographies. Mid-year estimates update the count between censuses but carry more uncertainty at small-area level; projections describe the future population rather than a current count; Nomis is a portal through which Census and labour market statistics are accessed rather than a separate count. All four are demographic or population products, so the item cannot be solved by eliminating off-topic options."
   },
   {
     "id": "K6-002",
@@ -141,13 +141,13 @@
     ],
     "stem": "GP Practice Records (GPPR) primarily contain:",
     "options": [
-      "aggregate counts of emergency attendances by hospital",
-      "local authority adult social care assessments",
-      "the coded and recorded clinical information held about patients at their general practice",
-      "Office for National Statistics (ONS) estimates of the resident population"
+      "the recorded prevalence of long-term conditions aggregated to practice level",
+      "patients' reported experience of general practice and how easy it is to access",
+      "the coded clinical information held about patients at their general practice",
+      "an extract of coded GP data assembled centrally for planning and research"
     ],
     "answer": 2,
-    "rationale": "GPPR are the records held at the practice about its registered patients, including coded clinical information. Emergency counts, social care assessments and population estimates sit in other datasets."
+    "rationale": "GPPR are the records held at the practice itself about its registered patients, including coded clinical information at the individual level. The distractors are all genuine primary care products an analyst could confuse with them: practice-level prevalence is the Quality and Outcomes Framework (QOF), reported experience is the GP Patient Survey (GPPS), and the central planning-and-research extract is GPES Data for Planning and Research (GDPPR). The item therefore turns on knowing what GPPR holds, not on spotting the only primary care option."
   },
   {
     "id": "K6-011",
@@ -232,12 +232,12 @@
     "stem": "The Emergency Care Data Set (ECDS) is the national data set for:",
     "options": [
       "attendances at emergency departments",
-      "planned outpatient appointments",
-      "adult social care assessments",
-      "community district-nursing contacts"
+      "admitted patient care, recording completed hospital spells and episodes",
+      "consultant-led outpatient appointments",
+      "care provided to women and babies through maternity services"
     ],
     "answer": 0,
-    "rationale": "ECDS is the national data set covering emergency department attendances, replacing the older accident and emergency data flow. Outpatients, social care assessments and community contacts are recorded in other datasets."
+    "rationale": "ECDS is the national data set for emergency department attendances, replacing the older accident and emergency flow. The distractors are the neighbouring secondary care flows it must be distinguished from: admitted patient care is the main Hospital Episode Statistics (HES) dataset, outpatient activity is the HES outpatient dataset, and maternity care is the Maternity Services Data Set (MSDS). The learner must therefore separate the parts of hospital activity rather than rule out unrelated domains."
   },
   {
     "id": "K6-017",
@@ -246,13 +246,13 @@
     ],
     "stem": "The Maternity Services Data Set (MSDS) records:",
     "options": [
-      "emergency department attendances",
-      "prescriptions issued in primary care",
+      "attendances at emergency departments",
+      "people in contact with mental health, learning disability and autism services",
       "care provided to women and babies through maternity services",
-      "benefit claims held by the Department for Work and Pensions (DWP)"
+      "contacts with community health services such as health visiting"
     ],
     "answer": 2,
-    "rationale": "MSDS captures maternity care for women and their babies. Emergency attendances, prescriptions and benefit claims belong to Emergency Care Data Set (ECDS), primary care data and DWP datasets respectively."
+    "rationale": "MSDS captures maternity care for women and their babies across the pathway. The distractors are other patient-level activity datasets it could be confused with: emergency attendances are the Emergency Care Data Set (ECDS), mental health contacts are the Mental Health Services Data Set (MHSDS), and community contacts are the Community Services Data Set (CSDS). The item tests discrimination among activity datasets rather than domain-spotting."
   },
   {
     "id": "K6-018",
@@ -267,7 +267,7 @@
       "a benchmarking tool for trust productivity"
     ],
     "answer": 0,
-    "rationale": "SUS is the national repository that processes hospital activity data to support commissioning and the Payment by Results (PbR), or national tariff, arrangements. It is not a satisfaction dashboard, a population survey or a benchmarking tool."
+    "rationale": "SUS is the national repository that processes hospital activity data to support commissioning and the payment system (historically Payment by Results (PbR), now the NHS Payment Scheme). It is not a satisfaction dashboard, a population survey, or a benchmarking tool."
   },
   {
     "id": "K6-019",
@@ -306,13 +306,13 @@
     ],
     "stem": "The Mental Health Services Data Set (MHSDS) records data on:",
     "options": [
-      "attendances at emergency departments",
-      "the resident population by age and sex",
-      "school pupils' educational attainment",
+      "contacts with community health services such as district nursing and health visiting",
+      "talking therapies delivered for common conditions such as anxiety and depression",
+      "short- and long-term adult social care support arranged by councils",
       "people in contact with mental health, learning disability and autism services"
     ],
     "answer": 3,
-    "rationale": "MHSDS covers people using mental health, learning disability and autism services. Emergency attendances, population counts and pupil attainment are held in Emergency Care Data Set (ECDS), Office for National Statistics (ONS) data and Department for Education (DfE) data."
+    "rationale": "MHSDS covers people using mental health, learning disability and autism services. The distractors are the adjacent community, psychological-therapy and social-care datasets that sit alongside it: community contacts are the Community Services Data Set (CSDS), talking therapies are the Improving Access to Psychological Therapies (IAPT) data set, now NHS Talking Therapies, and council-arranged support is the Short and Long Term Support (SALT) return. The learner must separate mental health services from these neighbours rather than discard unrelated options."
   },
   {
     "id": "K6-022",
@@ -321,13 +321,13 @@
     ],
     "stem": "The Community Services Data Set (CSDS) captures activity in services such as:",
     "options": [
-      "acute hospital surgery",
-      "adult social care finance",
+      "people in contact with mental health, learning disability and autism services",
+      "talking therapies for common mental health conditions",
       "district nursing and health visiting",
-      "infectious disease laboratory surveillance"
+      "short- and long-term adult social care support arranged by councils"
     ],
     "answer": 2,
-    "rationale": "CSDS records community health services, for example district nursing and health visiting. Hospital surgery, social care finance and laboratory surveillance belong to other datasets."
+    "rationale": "CSDS records community health services, for example district nursing and health visiting. The distractors are the datasets most easily confused with it: mental health contacts are the Mental Health Services Data Set (MHSDS), talking therapies are the Improving Access to Psychological Therapies (IAPT) data set, now NHS Talking Therapies, and council-arranged care is the Short and Long Term Support (SALT) return. The item therefore tests what 'community health services' means rather than letting the learner eliminate off-domain options."
   },
   {
     "id": "K6-023",
@@ -349,60 +349,60 @@
     "ksb": [
       "K6"
     ],
-    "stem": "The Adult Social Care Outcomes Framework (ASCOF) is used to measure:",
+    "stem": "Within adult social care data, the Adult Social Care Outcomes Framework (ASCOF) is used to measure:",
     "options": [
       "the outcomes and quality of adult social care delivered by councils",
-      "the cost of each hospital procedure",
-      "the prevalence of conditions on GP registers",
-      "emergency department attendance rates"
+      "local authority expenditure on adult social care",
+      "the volume and type of short- and long-term support councils arrange",
+      "eligibility for NHS-funded continuing healthcare"
     ],
     "answer": 0,
-    "rationale": "ASCOF reports outcome and quality measures for council-provided adult social care. Procedure costs, GP-register prevalence and emergency attendance rates come from finance, primary care and emergency datasets."
+    "rationale": "ASCOF reports outcome and quality measures for council-delivered adult social care. The distractors are the other adult social care collections it must be distinguished from: expenditure is the Adult Social Care Finance Return (ASC-FR), support volume and type is the Short and Long Term Support (SALT) return, and NHS-funded long-term care is Continuing Healthcare (CHC) data. The item tests discrimination within social care rather than domain elimination."
   },
   {
     "id": "K6-025",
     "ksb": [
       "K6"
     ],
-    "stem": "The SALT return (Short and Long Term Support) reports on:",
+    "stem": "Within adult social care data, the SALT return (Short and Long Term Support) reports on:",
     "options": [
-      "maternity care episodes",
-      "notifiable infectious diseases",
-      "GP patient experience",
-      "adult social care support provided to people by local authorities"
+      "the outcomes and quality of adult social care delivered by councils",
+      "local authority expenditure on adult social care",
+      "eligibility for NHS-funded continuing healthcare",
+      "the volume and type of short- and long-term support councils arrange"
     ],
     "answer": 3,
-    "rationale": "SALT is the local authority return on short- and long-term adult social care support. Maternity care, infectious diseases and GP experience are covered by Maternity Services Data Set (MSDS), UK Health Security Agency (UKHSA) surveillance and GP Patient Survey (GPPS)."
+    "rationale": "SALT is the local authority return describing the short- and long-term adult social care support provided to people. The distractors are the neighbouring social care collections: outcomes and quality are the Adult Social Care Outcomes Framework (ASCOF), expenditure is the Adult Social Care Finance Return (ASC-FR), and NHS-funded long-term care is Continuing Healthcare (CHC) data. The learner must separate support activity from outcomes, finance and CHC rather than rule out unrelated domains."
   },
   {
     "id": "K6-026",
     "ksb": [
       "K6"
     ],
-    "stem": "The Adult Social Care Finance Return (ASC-FR) is the main source for:",
+    "stem": "Within adult social care data, the Adult Social Care Finance Return (ASC-FR) is the main source for:",
     "options": [
       "local authority expenditure on adult social care",
-      "the clinical outcomes of hospital treatment",
-      "the number of people on GP disease registers",
-      "emergency department waiting times"
+      "the outcomes and quality of council-delivered social care",
+      "the volume and type of short- and long-term support councils arrange",
+      "eligibility for NHS-funded continuing healthcare"
     ],
     "answer": 0,
-    "rationale": "ASC-FR collects councils' adult social care expenditure. Hospital outcomes, GP-register counts and emergency waits sit in other datasets."
+    "rationale": "ASC-FR collects councils' adult social care expenditure. The distractors are the other adult social care collections an analyst might reach for: outcomes are the Adult Social Care Outcomes Framework (ASCOF), support volume and type is the Short and Long Term Support (SALT) return, and NHS-funded long-term care is Continuing Healthcare (CHC) data. The item turns on separating finance from outcomes, activity and CHC."
   },
   {
     "id": "K6-027",
     "ksb": [
       "K6"
     ],
-    "stem": "NHS Continuing Healthcare (CHC) data concerns:",
+    "stem": "Within adult social care and continuing care data, NHS Continuing Healthcare (CHC) data concerns:",
     "options": [
-      "the number of GP appointments offered each week",
-      "NHS funding of long-term care for people with significant ongoing health needs",
-      "attendances at sexual health clinics",
-      "secondary school absence rates"
+      "the outcomes and quality of council-delivered adult social care",
+      "NHS funding of long-term care for people with ongoing health needs",
+      "local authority expenditure on adult social care across the year",
+      "the volume and type of short- and long-term support councils arrange"
     ],
     "answer": 1,
-    "rationale": "CHC data relate to NHS-funded continuing healthcare for people with substantial ongoing health needs. GP appointments, sexual health attendances and school absence are recorded elsewhere."
+    "rationale": "CHC data relate to NHS-funded continuing healthcare for people with substantial ongoing health needs, distinct from council-funded social care. The distractors are the council social care collections it is most often confused with: outcomes are the Adult Social Care Outcomes Framework (ASCOF), expenditure is the Adult Social Care Finance Return (ASC-FR), and support volume and type is the Short and Long Term Support (SALT) return. The item tests the NHS-funded versus council-funded distinction rather than domain-spotting."
   },
   {
     "id": "K6-028",
@@ -424,15 +424,15 @@
     "ksb": [
       "K6"
     ],
-    "stem": "UK Health Security Agency (UKHSA) surveillance datasets are primarily used to monitor:",
+    "stem": "Within public health data, UK Health Security Agency (UKHSA) surveillance datasets are primarily used to monitor:",
     "options": [
-      "local authority social care spending",
-      "hospital procedure costs",
+      "vaccine coverage from person-level immunisation records",
+      "self-reported health and lifestyle measures from a representative sample",
       "the occurrence and spread of infectious diseases",
-      "patients' experience of general practice"
+      "ready-made public health indicators benchmarked across local areas"
     ],
     "answer": 2,
-    "rationale": "UKHSA surveillance tracks the occurrence and spread of communicable diseases. Social care spend, procedure costs and GP experience are covered by other datasets."
+    "rationale": "UKHSA surveillance tracks the occurrence and spread of communicable diseases. The distractors are the other public health sources it sits alongside: vaccine coverage comes from the National Immunisation Management Service (NIMS), self-reported measures from the Health Survey for England (HSE), and benchmarked local indicators from Fingertips. The learner must distinguish surveillance from immunisation, survey and indicator sources rather than eliminate off-domain options."
   },
   {
     "id": "K6-030",
@@ -454,15 +454,15 @@
     "ksb": [
       "K6"
     ],
-    "stem": "The National Immunisation Management Service (NIMS) holds:",
+    "stem": "Among public health datasets, the National Immunisation Management Service (NIMS) is distinctive in that it holds:",
     "options": [
-      "records of vaccinations given across the population",
-      "emergency department attendance records",
-      "GP patient satisfaction scores",
-      "adult social care outcomes"
+      "person-level records used to determine immunisation status and coverage",
+      "laboratory-confirmed reports of notifiable infectious diseases across the population",
+      "self-reported health and lifestyle measures from a representative population sample",
+      "syndromic surveillance indicators compiled from emergency department attendances"
     ],
     "answer": 0,
-    "rationale": "NIMS holds population vaccination records and is widely used for immunisation coverage analysis. Emergency attendances, GP satisfaction and social care outcomes belong to other datasets."
+    "rationale": "NIMS holds person-level immunisation records and is the basis for calculating vaccine coverage across the population. The other options are all public health sources too, which is what makes the item test real discrimination rather than domain-spotting: laboratory-confirmed notifiable disease reports come from UK Health Security Agency (UKHSA) surveillance, self-reported health and lifestyle measures come from the Health Survey for England (HSE), and syndromic indicators from emergency departments are a separate UKHSA surveillance feed."
   },
   {
     "id": "K6-032",
@@ -559,45 +559,45 @@
     "ksb": [
       "K6"
     ],
-    "stem": "Department for Work and Pensions (DWP) datasets are most useful to a public health analyst as a source of:",
+    "stem": "Among wider-determinants sources, Department for Work and Pensions (DWP) datasets are most useful to a public health analyst as a source of:",
     "options": [
       "benefit claims and economic circumstances relevant to deprivation",
-      "hospital inpatient diagnoses",
-      "infectious disease laboratory results",
-      "maternity care episodes"
+      "official local employment, unemployment and earnings statistics",
+      "educational attainment and free school meal eligibility",
+      "the resident population by age and sex"
     ],
     "answer": 0,
-    "rationale": "DWP data on benefits and economic circumstances inform analysis of deprivation and the wider determinants of health. Hospital diagnoses, laboratory results and maternity episodes come from NHS datasets."
+    "rationale": "DWP data on benefits and economic circumstances inform analysis of deprivation and the wider determinants of health. The distractors are the neighbouring wider-determinants and population sources: labour market statistics come through Nomis, education and attainment from Department for Education (DfE) datasets, and population counts from Office for National Statistics (ONS) estimates. The item tests what DWP specifically adds rather than letting the learner discard health datasets."
   },
   {
     "id": "K6-039",
     "ksb": [
       "K6"
     ],
-    "stem": "Department for Education (DfE) datasets would most directly support analysis of:",
+    "stem": "Among wider-determinants sources, Department for Education (DfE) datasets would most directly support analysis of:",
     "options": [
-      "adult social care expenditure",
+      "benefit claims and the household income circumstances behind deprivation",
       "educational attainment and factors such as free school meal eligibility",
-      "emergency department attendances",
-      "the cost of hospital procedures"
+      "official local employment, unemployment and earnings statistics",
+      "the resident population by age, sex and small-area geography"
     ],
     "answer": 1,
-    "rationale": "Department for Education data cover schooling, attainment and indicators such as free school meal eligibility, all relevant to wider determinants. Social care spend, emergency attendances and procedure costs lie in other datasets."
+    "rationale": "DfE data cover schooling, attainment and indicators such as free school meal eligibility, all relevant to wider determinants. The distractors are the adjacent wider-determinants and population sources: benefits and income come from Department for Work and Pensions (DWP) datasets, labour market statistics through Nomis, and population counts from Office for National Statistics (ONS) estimates. The learner must separate what each department's data describes."
   },
   {
     "id": "K6-040",
     "ksb": [
       "K6"
     ],
-    "stem": "For official statistics on local employment, unemployment and earnings, an analyst would turn to:",
+    "stem": "An analyst needs official small-area statistics on employment, unemployment and earnings. Among the wider-determinants sources, the most direct is:",
     "options": [
       "Nomis",
-      "Hospital Episode Statistics (HES)",
-      "the Mental Health Services Data Set (MHSDS)",
-      "NHS continuing healthcare (CHC) data"
+      "Department for Work and Pensions (DWP) benefit and low-income datasets",
+      "Department for Education (DfE) attainment datasets",
+      "Office for National Statistics (ONS) population projections"
     ],
     "answer": 0,
-    "rationale": "Nomis provides official labour market statistics including employment, unemployment and earnings. HES, MHSDS and CHC data concern health and care activity, not the labour market."
+    "rationale": "Nomis is the official portal for labour market statistics including employment, unemployment and earnings. DWP datasets describe benefits and income rather than the labour market as such; DfE datasets cover education and attainment; population projections estimate future population structure. All four are population, economic or wider-determinants sources, so the learner must distinguish what each covers rather than discard off-domain options."
   },
   {
     "id": "K6-041",
@@ -616,7 +616,9 @@
   },
   {
     "id": "K6-042",
-    "ksb": ["K6"],
+    "ksb": [
+      "K6"
+    ],
     "stem": "An analyst wants a direct measure of household income poverty to relate to a childhood health outcome. The most relevant source is likely to be:",
     "options": [
       "the Office for National Statistics mid-year population estimates",
@@ -634,13 +636,13 @@
     ],
     "stem": "Fingertips is best described as:",
     "options": [
-      "a secure environment for accessing record-level sensitive data",
-      "the national hospital activity repository",
+      "a secure environment for analysing record-level sensitive data",
+      "a collection of NHS England dashboards reporting operational and performance metrics",
       "a public tool presenting a wide range of population and public health indicators",
-      "a survey of GP patient experience"
+      "a benchmarking tool comparing trusts on cost and productivity"
     ],
     "answer": 2,
-    "rationale": "Fingertips is a freely available tool of public health indicators and profiles across geographies. It is not a secure record-level environment, the hospital activity repository or a GP survey."
+    "rationale": "Fingertips is a freely available tool presenting public health indicators and profiles across geographies. The distractors are the other platforms and environments it must be told apart from: secure record-level analysis is the Office for National Statistics (ONS) Secure Research Service (SRS) or NHS Data Access Environment (DAE), operational and performance dashboards are NHS England dashboards, and trust cost and productivity comparison is the Model Health System. The item tests what kind of platform Fingertips is rather than ruling out unrelated domains."
   },
   {
     "id": "K6-044",
